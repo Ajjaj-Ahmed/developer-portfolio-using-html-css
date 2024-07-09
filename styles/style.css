@@ -40,7 +40,6 @@ body {
 .banner {
     width: 1440px;
     height: 652px;
-    border: 2px solid green;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -88,4 +87,39 @@ body {
     border-radius: 8px;
     margin-top: 8px;
     color: rgb(255, 255, 255);
+}
+
+/* Why choose development */
+
+.specification{
+width: 1140px;
+height: 1400px;
+margin: 70px auto;
+border: 2px solid red;
+}
+.specification-container{
+    width: 946px;
+    height: 1235px;
+    border: 2px solid green;
+    margin: 80px auto;
+
+}
+.specification-partOne{
+    width: 100%;
+    height: 115px;
+    margin-bottom: 50px;
+    border: 2px solid blueviolet;
+}
+.specification-partTwo{
+    width: 100%;
+    height: 1060px;
+    border: 3px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.specification-content{
+    width: 945px;
+    height: 310px;
+    border: 2px solid lawngreen;
 }
