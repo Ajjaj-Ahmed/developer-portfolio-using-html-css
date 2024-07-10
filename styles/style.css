@@ -9,6 +9,7 @@ body {
     font-family: "Azeret Mono", monospace;
     width: 1440px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 /* navbar */
@@ -91,35 +92,95 @@ body {
 
 /* Why choose development */
 
-.specification{
-width: 1140px;
-height: 1400px;
-margin: 70px auto;
-border: 2px solid red;
+.specification {
+    width: 1140px;
+    height: 1400px;
+    margin: 70px auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
 }
-.specification-container{
+
+.specification-container {
     width: 946px;
     height: 1235px;
-    border: 2px solid green;
     margin: 80px auto;
 
 }
-.specification-partOne{
-    width: 100%;
+
+.specification-partOne {
+    width: 850px;
     height: 115px;
-    margin-bottom: 50px;
-    border: 2px solid blueviolet;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    margin: 0 auto;
 }
-.specification-partTwo{
+
+.specification-partOne h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.specification-partOne p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.specification-partTwo {
     width: 100%;
     height: 1060px;
-    border: 3px solid pink;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.specification-content{
+
+.specification-content {
     width: 945px;
     height: 310px;
-    border: 2px solid lawngreen;
+    background-color:white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.aim-description{
+    width: 500px;
+    height: 210px;
+    padding: 48px;
+}
+.aim-description h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.aim-description p{
+    font-size: 16;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.aim-description button{
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.aim-visual{
+    width: 300px;
+    height: 210px;
+    padding: 48px;
+}
+
+.specification-content-two{
+    width: 850px;
+    height: 230px;
+    background-color:white;
+    padding: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.aim-visual-two{
+    width: 240px;
+    height: 240px;
 }
