@@ -445,3 +445,26 @@ body {
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+
+
+.footer-section {
+    width: 1440px;
+    height: 68px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding-top: 32px;
+    background: rgba(13, 19, 33, 0.03);
+    /* border: 2px solid green; */
+}
+
+.footer-container {
+    margin: 0 150px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container h2{
+    font-size: 20px;
+    font-weight: 600;
+}
