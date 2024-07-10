@@ -139,76 +139,86 @@ body {
 .specification-content {
     width: 945px;
     height: 310px;
-    background-color:white;
+    background-color: white;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
 }
-.aim-description{
+
+.aim-description {
     width: 500px;
     height: 210px;
     padding: 48px;
 }
-.aim-description h2{
+
+.aim-description h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.aim-description p{
+
+.aim-description p {
     font-size: 16;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.aim-description button{
+
+.aim-description button {
     padding: 12px 20px;
     font-weight: 500;
     font-size: 20px;
     border-radius: 8px;
 }
-.aim-visual{
+
+.aim-visual {
     width: 300px;
     height: 210px;
     padding: 48px;
 }
 
-.specification-content-two{
+.specification-content-two {
     width: 850px;
     height: 230px;
-    background-color:white;
+    background-color: white;
     padding: 48px;
     border-radius: 8px;
     display: flex;
     align-items: center;
 }
-.aim-visual-two{
+
+.aim-visual-two {
     width: 240px;
     height: 240px;
 }
 
 /* My inspiration */
-.inspiration{
+.inspiration {
     width: 1140px;
     height: 775px;
     border-radius: 8px;
     margin: 0 auto;
 }
-.inspiration-heading{
+
+.inspiration-heading {
     width: 850px;
     height: 115px;
     margin: 0 auto;
 }
-.inspiration-heading h2{
+
+.inspiration-heading h2 {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 24px;
 }
-.inspiration-heading p{
+
+.inspiration-heading p {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
-.inspiration-thamnil{
+
+.inspiration-thamnil {
     width: 1076px;
     height: 548px;
     margin-top: 48px;
@@ -216,71 +226,144 @@ body {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
-.youtube-video{
+
+.youtube-video {
     width: 100%;
     height: 100%;
     border-radius: 16px;
 }
 
 /* Learing target */
-.learning-status{
+.learning-status {
     width: 1140px;
     height: 460px;
     margin: 150px auto 110px;
 }
-.learing-description{
+
+.learing-description {
     width: 852px;
     height: 115px;
     margin: 0 auto;
 }
-.learing-description h2{
+
+.learing-description h2 {
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 24px;
 }
-.learing-description p{
+
+.learing-description p {
     font-size: 16px;
     font-weight: 400;
-    text-align: center; 
+    text-align: center;
 }
-.learing-container{
+
+.learing-container {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.container-box{
+
+.container-box {
     width: 284px;
     height: 219px;
     padding: 40px;
     border-radius: 16px;
 }
-.container-box h2{
-font-size: 24px;
-font-weight: 800;
-margin-top: 24px;
-margin-bottom: 8px;
+
+.container-box h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
-.container-box p{
-font-size: 16px;
-font-weight: 400;
-margin-bottom: 24px;
-color: rgb(13, 19, 33);
+
+.container-box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
 }
-.container-box button{
+
+.container-box button {
     font-weight: 700;
     border: none;
     background: none;
     color: rgb(13, 19, 33);
     border-bottom: 2px solid black;
 }
-.htmlBox{
+
+.htmlBox {
     background: rgba(255, 76, 30, 0.05);
 }
-.cssBox{
+
+.cssBox {
     background: rgba(0, 76, 232, 0.05);
 }
-.javaScriptBox{
+
+.javaScriptBox {
     background: rgba(255, 223, 0, 0.05);
+}
+
+/* Learing Target */
+
+.learing-target{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+}
+.learing-target-description{
+    width: 850px;
+    height: 115px;
+    margin: 0 auto 48px;
+}
+.learing-target-description h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.learing-target-description p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.technoly-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px;
+}
+.reactJs,.nodeJs,.mongoDb{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+}
+
+.reactJs-details h2,.nodeJs-details h2, .mongoDb-details h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.reactJs-details p,.nodeJs-details p, .mongoDb-details p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.reactJs-details button,.nodeJs-details button, .mongoDb-details button{
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background:none;
+    border-bottom: 1px solid black;
+}
+.nodeJs img, .reactJs img, .mongoDb img{
+    width: 95px;
+    height: 85px;
 }
