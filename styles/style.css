@@ -309,35 +309,41 @@ body {
 
 /* Learing Target */
 
-.learing-target{
+.learing-target {
     width: 1140px;
     height: 866px;
     margin: 0 auto;
 }
-.learing-target-description{
+
+.learing-target-description {
     width: 850px;
     height: 115px;
     margin: 0 auto 48px;
 }
-.learing-target-description h2{
+
+.learing-target-description h2 {
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.learing-target-description p{
+
+.learing-target-description p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
 }
 
-.technoly-container{
+.technoly-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
     padding: 48px;
 }
-.reactJs,.nodeJs,.mongoDb{
+
+.reactJs,
+.nodeJs,
+.mongoDb {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -346,24 +352,96 @@ body {
     padding: 40px;
 }
 
-.reactJs-details h2,.nodeJs-details h2, .mongoDb-details h2{
+.reactJs-details h2,
+.nodeJs-details h2,
+.mongoDb-details h2 {
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 8px;
 }
-.reactJs-details p,.nodeJs-details p, .mongoDb-details p{
+
+.reactJs-details p,
+.nodeJs-details p,
+.mongoDb-details p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
 }
-.reactJs-details button,.nodeJs-details button, .mongoDb-details button{
+
+.reactJs-details button,
+.nodeJs-details button,
+.mongoDb-details button {
     font-size: 16px;
     font-weight: 700;
     border: none;
-    background:none;
+    background: none;
     border-bottom: 1px solid black;
 }
-.nodeJs img, .reactJs img, .mongoDb img{
+
+.nodeJs img,
+.reactJs img,
+.mongoDb img {
     width: 95px;
     height: 85px;
+}
+
+/* Support section */
+.support-section {
+    width: 1140px;
+    height: 315px;
+    margin: 50px auto 80px;
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.support-info {
+    width: 1044px;
+    padding-top: 64px;
+    margin: 64px auto;
+    border-radius: 8px;
+}
+
+.support-info h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.support-info p {
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.support-button {
+    padding-top: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.submit {
+    padding: 14px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.search {
+    padding: 17px 20px;
+    width: 500px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
